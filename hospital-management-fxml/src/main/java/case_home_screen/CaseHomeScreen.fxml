@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="775.0" prefWidth="1310.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="case_home_screen.CaseHomeScreenController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="ORANGE" height="61.0" layoutY="-4.0" stroke="BLACK" strokeType="INSIDE" width="1310.0" />
+      <Label layoutX="24.0" layoutY="-8.0" text="Case" textFill="WHITE">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Label layoutX="972.0" layoutY="-8.0" prefHeight="70.0" prefWidth="338.0" text="Prathamesh(Admin)" textFill="WHITE">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Circle fill="DODGERBLUE" layoutX="923.0" layoutY="26.0" radius="30.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="909.0" layoutY="-5.0" text="P" textFill="WHITE">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="719.0" layoutY="56.0" stroke="BLACK" strokeType="INSIDE" width="224.0" />
+      <Button fx:id="Logout" layoutX="14.0" layoutY="713.0" mnemonicParsing="false" onAction="#Logout" prefHeight="39.0" prefWidth="186.0" text="Logout" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="683.0" layoutX="239.0" layoutY="73.0" stroke="BLACK" strokeType="INSIDE" width="1054.0" />
+      <Button fx:id="Dashboard" layoutX="14.0" layoutY="87.0" mnemonicParsing="false" onAction="#Dashboard" prefHeight="39.0" prefWidth="186.0" text="Dashboard" />
+      <Button fx:id="Patients" layoutX="14.0" layoutY="151.0" mnemonicParsing="false" onAction="#Patients" prefHeight="39.0" prefWidth="186.0" text="Patients" />
+      <Button fx:id="Cases" layoutX="14.0" layoutY="216.0" mnemonicParsing="false" onAction="#Cases" prefHeight="39.0" prefWidth="186.0" text="Cases" />
+      <Button fx:id="Appointments" layoutX="14.0" layoutY="280.0" mnemonicParsing="false" onAction="#Appointments" prefHeight="39.0" prefWidth="186.0" text="Appointments" />
+      <Button fx:id="Users" layoutX="14.0" layoutY="346.0" mnemonicParsing="false" onAction="#Users" prefHeight="39.0" prefWidth="186.0" text="Users" />
+      <Button fx:id="DeleteCase" layoutX="370.0" layoutY="313.0" mnemonicParsing="false" onAction="#DeleteCase" prefHeight="53.0" prefWidth="300.0" text="Delete Case" />
+      <Button fx:id="SearchCase" layoutX="370.0" layoutY="407.0" mnemonicParsing="false" onAction="#SearchCase" prefHeight="53.0" prefWidth="300.0" text="Search Case" />
+      <Button fx:id="AddCase" layoutX="368.0" layoutY="118.0" mnemonicParsing="false" onAction="#AddCase" prefHeight="53.0" prefWidth="300.0" text="Add Case" />
+      <Button fx:id="EditCase" layoutX="368.0" layoutY="216.0" mnemonicParsing="false" onAction="#EditCase" prefHeight="53.0" prefWidth="300.0" text="Edit Case" />
+   </children>
+</Pane>
